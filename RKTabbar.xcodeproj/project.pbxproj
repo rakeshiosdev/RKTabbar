@@ -16,6 +16,10 @@
 		7EAE4030286ADC6E0002A054 /* RKTabbarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAE402F286ADC6E0002A054 /* RKTabbarTests.swift */; };
 		7EAE403A286ADC6E0002A054 /* RKTabbarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAE4039286ADC6E0002A054 /* RKTabbarUITests.swift */; };
 		7EAE403C286ADC6E0002A054 /* RKTabbarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAE403B286ADC6E0002A054 /* RKTabbarUITestsLaunchTests.swift */; };
+		7EAE404B286AEF150002A054 /* TabOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAE4049286AEF150002A054 /* TabOneViewController.swift */; };
+		7EAE404C286AEF150002A054 /* TabOneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EAE404A286AEF150002A054 /* TabOneViewController.xib */; };
+		7EAE404F286AEF260002A054 /* TabTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EAE404D286AEF260002A054 /* TabTwoViewController.swift */; };
+		7EAE4050286AEF260002A054 /* TabTwoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EAE404E286AEF260002A054 /* TabTwoViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		7EAE4035286ADC6E0002A054 /* RKTabbarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RKTabbarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EAE4039286ADC6E0002A054 /* RKTabbarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKTabbarUITests.swift; sourceTree = "<group>"; };
 		7EAE403B286ADC6E0002A054 /* RKTabbarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKTabbarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7EAE4049286AEF150002A054 /* TabOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabOneViewController.swift; sourceTree = "<group>"; };
+		7EAE404A286AEF150002A054 /* TabOneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabOneViewController.xib; sourceTree = "<group>"; };
+		7EAE404D286AEF260002A054 /* TabTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTwoViewController.swift; sourceTree = "<group>"; };
+		7EAE404E286AEF260002A054 /* TabTwoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabTwoViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,7 @@
 		7EAE4017286ADC660002A054 /* RKTabbar */ = {
 			isa = PBXGroup;
 			children = (
+				7EAE4048286AEEF10002A054 /* TabControllers */,
 				7EAE4018286ADC660002A054 /* AppDelegate.swift */,
 				7EAE401A286ADC660002A054 /* SceneDelegate.swift */,
 				7EAE401C286ADC660002A054 /* ViewController.swift */,
@@ -125,6 +134,17 @@
 				7EAE403B286ADC6E0002A054 /* RKTabbarUITestsLaunchTests.swift */,
 			);
 			path = RKTabbarUITests;
+			sourceTree = "<group>";
+		};
+		7EAE4048286AEEF10002A054 /* TabControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7EAE4049286AEF150002A054 /* TabOneViewController.swift */,
+				7EAE404A286AEF150002A054 /* TabOneViewController.xib */,
+				7EAE404D286AEF260002A054 /* TabTwoViewController.swift */,
+				7EAE404E286AEF260002A054 /* TabTwoViewController.xib */,
+			);
+			path = TabControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +252,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EAE4025286ADC6D0002A054 /* LaunchScreen.storyboard in Resources */,
+				7EAE404C286AEF150002A054 /* TabOneViewController.xib in Resources */,
 				7EAE4022286ADC6D0002A054 /* Assets.xcassets in Resources */,
 				7EAE4020286ADC660002A054 /* Main.storyboard in Resources */,
+				7EAE4050286AEF260002A054 /* TabTwoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +281,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EAE401D286ADC660002A054 /* ViewController.swift in Sources */,
+				7EAE404B286AEF150002A054 /* TabOneViewController.swift in Sources */,
+				7EAE404F286AEF260002A054 /* TabTwoViewController.swift in Sources */,
 				7EAE4019286ADC660002A054 /* AppDelegate.swift in Sources */,
 				7EAE401B286ADC660002A054 /* SceneDelegate.swift in Sources */,
 			);
